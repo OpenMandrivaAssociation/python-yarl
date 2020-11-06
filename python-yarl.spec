@@ -16,6 +16,7 @@ Provides: python3-yarl
 
 BuildRequires:  python3-devel
 BuildRequires:  python-setuptools
+BuildRequires:  python3dist(setuptools)
 BuildRequires:  python-cython
 BuildRequires:  python3dist(multidict)
 BuildRequires:  python-idna
