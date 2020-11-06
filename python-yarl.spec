@@ -2,7 +2,7 @@
 
 Name:           python-%{srcname}
 Version:        1.4.2
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        A Python module to handle URLs
 
 License:        ASL 2.0
