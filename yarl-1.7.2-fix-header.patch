@@ -1,0 +1,11 @@
+--- yarl-1.7.2/yarl/_quoting_c.c	1970-01-01 00:00:00.000000000 +0000
++++ yarl-1.7.2/yarl/_quoting_c.c.tpg	2022-03-12 13:51:08.507620812 +0000
+@@ -195,7 +195,7 @@
+ #define CYTHON_FAST_PYCCALL  (CYTHON_FAST_PYCALL && PY_VERSION_HEX >= 0x030600B1)
+ #endif
+ #if CYTHON_USE_PYLONG_INTERNALS
+-  #include "longintrepr.h"
++  #include "cpython/longintrepr.h"
+   #undef SHIFT
+   #undef BASE
+   #undef MASK
