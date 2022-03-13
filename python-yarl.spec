@@ -1,7 +1,7 @@
 %global srcname yarl
 
 Name:		python-%{srcname}
-Version:	1.7.2
+Version:	1.8.0
 Release:	1
 Summary:	A Python module to handle URLs
 License:	ASL 2.0
@@ -13,7 +13,6 @@ BuildRequires:	python-setuptools
 BuildRequires:	python-cython
 BuildRequires:	python3dist(multidict)
 BuildRequires:	python-idna
-%rename python3-yarl
 
 %description
 The module provides handy URL class for URL parsing and changing.
@@ -31,5 +30,5 @@ The module provides handy URL class for URL parsing and changing.
 %files
 %doc CHANGES.rst README.rst
 %license LICENSE
-%{python3_sitearch}/%{srcname}/
-%{python3_sitearch}/%{srcname}-*.egg-info/
+%{python_sitearch}/%{srcname}/
+%{python_sitearch}/%{srcname}-*.egg-info/
