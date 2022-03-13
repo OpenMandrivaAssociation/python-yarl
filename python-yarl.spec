@@ -7,7 +7,7 @@ Summary:	A Python module to handle URLs
 License:	ASL 2.0
 URL:		https://yarl.readthedocs.io
 Source0:	https://github.com/aio-libs/yarl/releases/download/v%{version}/%{srcname}-%{version}.tar.gz
-Patch0:		yarl-1.7.2-fix-header.patch
+#Patch0:		yarl-1.7.2-fix-header.patch
 BuildRequires:	pkgconfig(python)
 BuildRequires:	python-setuptools
 BuildRequires:	python-cython
