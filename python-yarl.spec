@@ -22,6 +22,7 @@ The module provides handy URL class for URL parsing and changing.
 %autosetup -p1 -n %{srcname}-%{version}
 
 %build
+%{python3} -m cython -3 -o yarl/_quoting_c.c yarl/_quoting_c.pyx -I yarl
 %py_build
 
 %install
