@@ -2,7 +2,7 @@
 
 Name:		python-%{srcname}
 Version:	1.7.2
-Release:	2
+Release:	3
 Summary:	A Python module to handle URLs
 License:	ASL 2.0
 URL:		https://yarl.readthedocs.io
