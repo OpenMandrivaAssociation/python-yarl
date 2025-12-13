@@ -2,7 +2,7 @@
 %define module yarl
 
 Name:		python-yarl
-Version:	1.18.3
+Version:	1.22.0
 Release:	1
 Summary:	A Python module to handle URLs
 License:	Apache-2.0
@@ -23,19 +23,8 @@ BuildRequires:	python%{pyver}dist(idna)
 %description
 The module provides handy URL class for URL parsing and changing.
 
-
-%prep
-%autosetup -p1 -n %{module}-%{version}
-
-%build
-export CFLAGS="%{optflags} -Wno-return-type"
-%py_build
-
-%install
-%py_install
-
 %files
-%{python3_sitearch}/%{module}/
-%{python3_sitearch}/%{module}-%{version}.dist-info/
+%{python_sitearch}/%{module}/
+%{python_sitearch}/%{module}-%{version}.dist-info/
 %license LICENSE
 %doc CHANGES.rst README.rst
