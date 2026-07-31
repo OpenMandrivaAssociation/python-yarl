@@ -2,7 +2,7 @@
 %define module yarl
 
 Name:		python-yarl
-Version:	1.24.2
+Version:	1.24.5
 Release:	1
 Summary:	A Python module to handle URLs
 License:	Apache-2.0
